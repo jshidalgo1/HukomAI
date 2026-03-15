@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+*.zip
+hukom_corpus_friendly/
+hukom_corpus_friendly.zip
+hukom_quarantine/
+audit_report.csv
+hukom_dataset_*.csv
+results_headtail/
+results_sliding/
+logs/
+logs_sliding/
+hukom_model_*/
