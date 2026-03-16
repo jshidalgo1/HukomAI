@@ -14,3 +14,4 @@ results_sliding/
 logs/
 logs_sliding/
 hukom_model_*/
+/sc_decisions.csv

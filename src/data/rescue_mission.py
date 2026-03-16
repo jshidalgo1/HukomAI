@@ -4,11 +4,12 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import time
-from src.data.scraper import extract_sections  # Reuse scraper's core extraction logic
+from src.data.scraper import extract_sections
+from src.data.config import INPUT_CSV, CORPUS_DIR
 
 # --- CONFIGURATION ---
-INPUT_DIR = "hukom_corpus_friendly"
-MASTER_CSV = "sc_decisions.csv"
+INPUT_DIR  = CORPUS_DIR
+MASTER_CSV = INPUT_CSV
 SLEEP_TIME = 0
 
 

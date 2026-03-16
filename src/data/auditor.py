@@ -1,12 +1,13 @@
 import os
 import re
 import csv
+from src.data.config import CORPUS_DIR, AUDIT_FILE
 
 # --- CONFIGURATION ---
-INPUT_DIR = "hukom_corpus_friendly"
-OUTPUT_REPORT = "audit_report.csv"  # The list of files to fix
-CHECK_LIMIT = 500
-FOOTER_LIMIT = 1000
+INPUT_DIR     = CORPUS_DIR
+OUTPUT_REPORT = AUDIT_FILE
+CHECK_LIMIT   = 500
+FOOTER_LIMIT  = 1000
 
 
 def check_files():

@@ -4,13 +4,14 @@ from bs4 import BeautifulSoup
 import time
 import os
 import csv
-from src.data.scraper import extract_sections  # Reuse scraper's core extraction logic
+from src.data.scraper import extract_sections
+from src.data.config import INPUT_CSV, CORPUS_DIR, AUDIT_FILE
 
 # --- CONFIGURATION ---
-MASTER_CSV = "sc_decisions.csv"         # Source of URLs
-INPUT_DIR = "hukom_corpus_friendly"     # Where files are saved
-REPORT_FILE = "audit_report.csv"        # List of bad files to refetch
-SLEEP_TIME = 0                          # Be polite to the server!
+MASTER_CSV  = INPUT_CSV
+INPUT_DIR   = CORPUS_DIR
+REPORT_FILE = AUDIT_FILE
+SLEEP_TIME  = 0
 
 
 def refetch_files():

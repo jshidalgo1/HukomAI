@@ -1,0 +1,5 @@
+outs:
+- md5: d1a7ec7ce683488f5d4b44dc86889ffa
+  size: 266023479
+  hash: md5
+  path: hukom_corpus_friendly.zip

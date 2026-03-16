@@ -1,0 +1,5 @@
+outs:
+- md5: c400ae752f688a084dd923aaad6809f6
+  size: 10507261
+  hash: md5
+  path: sc_decisions.csv

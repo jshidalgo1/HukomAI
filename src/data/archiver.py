@@ -1,11 +1,12 @@
 import os
 import csv
 import shutil
+from src.data.config import CORPUS_DIR, QUARANTINE, AUDIT_FILE
 
 # --- CONFIGURATION ---
-INPUT_DIR = "hukom_corpus_friendly"
-ARCHIVE_DIR = "hukom_quarantine"  # Where bad files will go
-REPORT_FILE = "audit_report.csv"
+INPUT_DIR        = CORPUS_DIR
+ARCHIVE_DIR      = QUARANTINE
+REPORT_FILE      = AUDIT_FILE
 SAFETY_THRESHOLD = 2000
 
 

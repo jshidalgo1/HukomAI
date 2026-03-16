@@ -2,10 +2,11 @@ import os
 import re
 import csv
 from src.data.scraper import extract_sections  # Reuse scraper's core extraction logic
+from src.data.config import CORPUS_DIR, AUDIT_FILE
 
 # --- CONFIGURATION ---
-INPUT_DIR = "hukom_corpus_friendly"
-REPORT_FILE = "audit_report.csv"
+INPUT_DIR   = CORPUS_DIR
+REPORT_FILE = AUDIT_FILE
 
 
 def is_ghost_file(content):
