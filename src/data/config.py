@@ -20,6 +20,7 @@ SIM_DEDUP_OUT = "data/sim_dedup_report.csv" # Embedding-based near-duplicate pai
 
 # --- FINAL DATASET ---
 DATASET_OUT = "data/hukom_phase0_dataset.csv"  # Canonical Phase 0 structured CSV
+DATABASE_PATH = "data/hukom_phase0.db"          # SQLite version of the Phase 0 dataset
 
 # --- EMBEDDING DEDUP SETTINGS ---
 EMBEDDING_MODEL     = "sentence-transformers/all-MiniLM-L6-v2"

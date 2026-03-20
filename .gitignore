@@ -8,6 +8,7 @@ hukom_corpus_friendly/
 hukom_corpus_friendly.zip
 hukom_quarantine/
 *.csv
+*.db
 results_headtail/
 results_sliding/
 logs/
