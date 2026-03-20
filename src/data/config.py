@@ -5,21 +5,21 @@ All data scripts should import from here rather than hardcoding paths locally.
 """
 
 # --- INPUT ---
-INPUT_CSV = "sc_decisions.csv"         # Master list of SC decisions with URLs
+INPUT_CSV = "data/sc_decisions.csv"         # Master list of SC decisions with URLs
 
 # --- CORPUS DIRECTORIES ---
-CORPUS_DIR = "hukom_corpus_friendly"   # Clean, scraped .txt files (facts + issues + ruling)
-QUARANTINE  = "hukom_quarantine"       # Bad files moved here by archiver.py
+CORPUS_DIR = "data/hukom_corpus_friendly"   # Clean, scraped .txt files (facts + issues + ruling)
+QUARANTINE  = "data/hukom_quarantine"       # Bad files moved here by archiver.py
 
 # --- AUDIT ---
-AUDIT_FILE = "audit_report.csv"        # Output of auditor.py – flagged files
+AUDIT_FILE = "data/audit_report.csv"        # Output of auditor.py – flagged files
 
 # --- DEDUPLICATION ---
-FAMILY_OUT    = "family_groups.csv"    # G.R. number family groupings
-SIM_DEDUP_OUT = "sim_dedup_report.csv" # Embedding-based near-duplicate pairs
+FAMILY_OUT    = "data/family_groups.csv"    # G.R. number family groupings
+SIM_DEDUP_OUT = "data/sim_dedup_report.csv" # Embedding-based near-duplicate pairs
 
 # --- FINAL DATASET ---
-DATASET_OUT = "hukom_phase0_dataset.csv"  # Canonical Phase 0 structured CSV
+DATASET_OUT = "data/hukom_phase0_dataset.csv"  # Canonical Phase 0 structured CSV
 
 # --- EMBEDDING DEDUP SETTINGS ---
 EMBEDDING_MODEL     = "sentence-transformers/all-MiniLM-L6-v2"

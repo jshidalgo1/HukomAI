@@ -7,11 +7,9 @@ __pycache__/
 hukom_corpus_friendly/
 hukom_corpus_friendly.zip
 hukom_quarantine/
-audit_report.csv
-hukom_dataset_*.csv
+*.csv
 results_headtail/
 results_sliding/
 logs/
 logs_sliding/
 hukom_model_*/
-/sc_decisions.csv
